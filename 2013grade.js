@@ -56,7 +56,7 @@ if (intGradeOption===1)
     }
 }
 
-
+alert (stringMessage);
 
 
 
