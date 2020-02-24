@@ -34,7 +34,7 @@ if (intGradeOption===1)
         }
         else {
             if (floattotalPts >= 60 && floatTotalPts <=69) {
-                stringMessage = "Well you got a D, I guess I'll see you next semester."
+                stringMessage = "Well you got a D, I guess I'll see you next semester.";
             }
             else {
                 if (floatTotalPts <= 59) {
@@ -46,7 +46,7 @@ if (intGradeOption===1)
                         stringMessage = "Congrats, you have passed the course instead of failing it. Noice!";
                     }
                     else {
-                        stringMessage = "Boo, you failed."
+                        stringMessage = "Boo, you failed.";
                     }
                 }
             }
