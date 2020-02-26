@@ -15,7 +15,7 @@ floatMidPts = parseFloat(prompt("Please enter Midterm pts (0-35):"));
 
 floatFinPts = parseFloat(prompt("Please enter Final pts (0-35):"));
 
-floatTotalPts = parseFloat();
+floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
 
 intGradeOption = parseInt(prompt("Enter 1 for A-F scale or enter 2 for pass/fail course"));
 
