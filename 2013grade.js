@@ -33,7 +33,7 @@ if (intGradeOption===1)
                 stringMessage = "Ehh, you passed the course, I guess. A C's better than nothing.";
         }
         else {
-            if (floattotalPts >= 60 && floatTotalPts <=69) {
+            if (floatTotalPts >= 60 && floatTotalPts <=69) {
                 stringMessage = "Well you got a D, I guess I'll see you next semester.";
             }
             else {
