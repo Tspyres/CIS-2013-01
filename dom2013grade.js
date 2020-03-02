@@ -11,6 +11,7 @@ var calculate_click = function ()
     floatMidPts = parseFloat($("mid_pts").value);
     floatFinPts = parseFloat($("fin_pts").value);
     floatTotalPts = parseFloat("hw_pts" + "mid_pts" + "fin_pts");
+    intGradeOption = parseInt($(grade_option").value);
     console.log(floatTotalPts);
 
 
