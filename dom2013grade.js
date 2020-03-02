@@ -5,7 +5,7 @@ var $ = function (id)
 
 var calculate_click = function () 
 {
-    var floatHwPts, floatMidPts, floatFinPts, floatTotalPts, stringMessage;
+    var floatHwPts, floatMidPts, floatFinPts, floatTotalPts, stringMessage, intGradeOption;
 
     floatHwPts = parseFloat($("hw_pts").value);
     floatMidPts = parseFloat($("mid_pts").value);
