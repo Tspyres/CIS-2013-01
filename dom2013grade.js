@@ -36,13 +36,14 @@ if (intGradeOption===1)
                     stringMessage = "Really, you failed?!?! I literally gave you all the answers, like actually how?!?!";
                 }
  else {               
-                
+                if (intGradeOption===2) {
                     if (floatTotalPts  >= 80) {
                         stringMessage = "Congrats, you have passed the course instead of failing it. Noice!";
                     }
                     else {
                         stringMessage = "Boo, you failed.";
                     }
+                }
                 }
             }
         }
