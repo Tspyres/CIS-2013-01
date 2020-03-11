@@ -26,28 +26,36 @@ var fixPrinter = function() {
     
     //enter your code here and don't forget to send the output to the DOM
     switch (true) {  
-        case boolprinting === true && boolRedLight === true && boolRecognised === true:
+        case 1:
+            boolprinting === true && boolRedLight === true && boolRecognised === true:
             stringOutput = stringMessage2 + “\n” + stringMessage3 + “\n” + stringMessage4;
             break;
-        case boolprinting === true && boolRedLight === true && boolRecognised === false:
+        case 2:
+            boolprinting === true && boolRedLight === true && boolRecognised === false:
             stringOutput = stringMessage4 + " " + stringMessage5;
             break;
-        case boolprinting === true && boolRedLight === false && boolRecognised === true:
+        case 3:
+            boolprinting === true && boolRedLight === false && boolRecognised === true:
             stringOutput = stringmessage1 + " " stringMessage2 + " " + stringMessage3;
             break;
-        case boolprinting === true && boolRedLight === false && boolRecognised === false:
+        case 4:
+            boolprinting === true && boolRedLight === false && boolRecognised === false:
             stringOutput = stringmessage5;
             break;
-        case boolprinting === false && boolRedLight === true && boolRecognised === true:
+        case 5:
+            boolprinting === false && boolRedLight === true && boolRecognised === true:
             stringOutput = stringmessage3 + " " + stringMessage4;
             break;
-        case boolprinting === false && boolRedLight === false && boolRecognised === true:
+        case 6:
+            boolprinting === false && boolRedLight === false && boolRecognised === true:
             stringOutput = stringmessage4;
             break;
-        case boolprinting === false && boolRedLight === true && boolRecognised === false:
+        case 7:
+            boolprinting === false && boolRedLight === true && boolRecognised === false:
             stringOutput = stringmessage3;
             break;
-        case boolprinting === false && boolRedLight === false && boolRecognised === false:
+        case 8:
+            boolprinting === false && boolRedLight === false && boolRecognised === false:
             stringOutput = stringmessage6;
             break;
     default:
