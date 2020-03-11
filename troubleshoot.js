@@ -34,7 +34,7 @@ var fixPrinter = function() {
     if (boolPrinting === true && boolRedLight === false && boolRecognised === true) {
         alert(stringMessage1 + " " + stringMessage2 + " " + stringMessage3);
     }
-    if (boolPrinting === true && boolRedLight === false && boolRecognised === true) {
+    if (boolPrinting === true && boolRedLight === false && boolRecognised === false) {
         alert(stringMessage5);
     }
     if (boolPrinting === false && boolRedLight === true && boolRecognised === true) {
