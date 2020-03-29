@@ -35,7 +35,7 @@ var calcRectArea = function()
 
 function rectArea (floatRectHeight, floatRectWidth)
 {
-    var floatArea = floatHeight * floatWidth;
+    var floatArea = floatRectHeight * floatRectWidth;
     return floatArea.toFixed(2);
 }
 
