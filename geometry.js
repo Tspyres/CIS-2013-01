@@ -138,7 +138,7 @@ window.onload = function ()
     $("calc_rect_perim").onclick = calcRectPerim;
     $("calc_tri_area").onclick = calcTriArea;
     $("calc_tri_perim").onclick = calcTriPerim;
-    $("calc_circle_area").onclick = clacCircleArea;
+    $("calc_circle_area").onclick = calcCircleArea;
      
      
      
