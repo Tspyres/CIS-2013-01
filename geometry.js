@@ -25,7 +25,7 @@ var do_it = function ()
         //CHOOSE RIGHT ONE
 };
 
-var calcRectArea = funtion()
+var calcRectArea = function()
 {
     var floatRectHeight = parseFloat($("rect_height").value);
     var floatRectWidth = parseFloat($("rect_width").value);
