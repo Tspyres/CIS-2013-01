@@ -9,7 +9,7 @@ var intMax, intMin, intRandom, intGuess, intCount, intPoints;
 intMin = prompt("Enter Min");
 while (isNaN(intMin) || intMin <0)
 {
-    intMin = prompt("Your number was invalid");
+    intMin = prompt("ERROR INVALID RESPONSE");
 }
 
 
@@ -26,7 +26,7 @@ while (isNaN(intMin) || intMin <0)
 intMax = prompt("Enter Max");
 while (isNaN(intMax) || intMax < (intMin + 2))
 {
-    intMax = prompt("Your number was invalid");
+    intMax = prompt("ERROR IVALID RESPONSE");
 }
 
 
