@@ -96,6 +96,6 @@ while(isNaN(intGuess) || parseInt(intGuess) < intMin || parseInt(intGuess) > int
  
 
 // provides final output upon successful guessing
-alert("Congratulations!!! You guessed the correct number (" + intRandom +")\n" +
-" and it only took you " + intCount + " attempts!"+ "You recieved " + intPoints + "!");
+alert("Congrats!!! You guessed the correct number (" + intRandom +")\n" +
+" and it only took you " + intCount + " tries!"+ "You recieved " + intPoints + "!");
 
