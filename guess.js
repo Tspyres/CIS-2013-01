@@ -57,7 +57,7 @@ intGuess = prompt("Enter a guess between " + intMin + " and " + intMax);
 
 while(isNaN(intGuess) || parseInt(intGuess) < intMin || parseInt(intGuess) > intMax)
 {
-    intGuess = prompt ("Your guess is invalid");
+    intGuess = prompt ("ERROR INVALID RESPONSE");
 }
 
 
@@ -87,7 +87,7 @@ intGuess = prompt("Enter a guess between " + intMin + " and " + intMax);
  
 while(isNaN(intGuess) || parseInt(intGuess) < intMin || parseInt(intGuess) > intMax)
   {
-    intGuess = prompt ("Your guess is invalid");
+    intGuess = prompt ("ERROR INVALID RESPONSE");
   }
  
 }
