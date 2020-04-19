@@ -44,7 +44,7 @@ var generate = function ()
      
 	
 
-} 
+}; 
 
 // Push solution back to Output through DOM
 
@@ -53,4 +53,4 @@ window.onload = function ()
     $("total_fib").value = "";
     $("output").value = "";
     $("generate").onclick = generate; //runs the generate function when clicked
-}  
+};
